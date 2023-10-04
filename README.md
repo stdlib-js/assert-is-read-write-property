@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isReadWriteProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-read-write-property@esm/index.mjs';
+import isReadWriteProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-read-write-property@v0.1.1-esm/index.mjs';
 ```
 
 #### isReadWriteProperty( value, property )
@@ -130,7 +130,7 @@ bool = isReadWriteProperty( obj, 'accessor' );
 <body>
 <script type="module">
 
-import isReadWriteProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-read-write-property@esm/index.mjs';
+import isReadWriteProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-read-write-property@v0.1.1-esm/index.mjs';
 
 var bool = isReadWriteProperty( [ 'a' ], 'length' );
 // returns true
