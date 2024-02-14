@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isReadWriteProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-read-write-property@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-read-write-property/tags). For example,
+
+```javascript
 import isReadWriteProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-read-write-property@v0.2.0-esm/index.mjs';
 ```
 
@@ -130,7 +135,7 @@ bool = isReadWriteProperty( obj, 'accessor' );
 <body>
 <script type="module">
 
-import isReadWriteProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-read-write-property@v0.2.0-esm/index.mjs';
+import isReadWriteProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-read-write-property@esm/index.mjs';
 
 var bool = isReadWriteProperty( [ 'a' ], 'length' );
 // returns true
