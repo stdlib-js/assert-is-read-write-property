@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isReadWriteProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-read-write-property@deno/mod.js';
+import isReadWriteProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-read-write-property@v0.2.2-deno/mod.js';
 ```
 
 #### isReadWriteProperty( value, property )
@@ -125,7 +125,7 @@ bool = isReadWriteProperty( obj, 'accessor' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isReadWriteProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-read-write-property@deno/mod.js';
+import isReadWriteProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-read-write-property@v0.2.2-deno/mod.js';
 
 var bool = isReadWriteProperty( [ 'a' ], 'length' );
 // returns true
